@@ -1,0 +1,65 @@
+body {
+	background: url(../img/ukr2.jpg) center no-repeat;
+	height: 100vh;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	margin: 0 auto;
+	width: 980px;
+	background: linear-gradient(to top, #fefcea, #f1da36);
+	text-align: center;
+	padding: 20px;
+	transform: translateY(120px);
+}
+
+h1 {
+	color: #5D5FC2;
+	margin-bottom: 50px;
+}
+h1 span {
+	color: #3C3D7D;
+}
+.operation {
+	margin-top: 45px;
+}
+label {
+	color: #5D5FC2;
+	font-size: 17px;
+	font-style: italic;
+}
+label input {
+	background-color: #99CEF0;
+	margin-left: 10px;
+}
+button {
+	padding: 8px 12px;
+	margin-left: 20px;
+	background: rgba(93, 95, 194, 0.86);
+	border: none;
+	font-size: 16px;
+	border-radius: 4px;
+	color: #FFCB0F;
+	transition: 0.3s;
+}
+button:focus, label input  {
+	outline: none;
+}
+button:hover {
+	background: rgba(93, 95, 194, 1);
+	transition: 0.3s;
+
+}
+p {
+	color: #5D5FC2;
+	font-size: 17px;
+	font-weight: bold;
+	margin-top: 40px;
+}
+.copyright {
+	font-size: 11px;
+	text-align:right;
+}

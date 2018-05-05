@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JS</title>
+	<script src="js/main.js"></script>
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+	<div class="container">
+		
+		<h1>Мій другий простий калькулятор на <span>JavaScript</span></h1>
+		<label for="num1">Число (а)<input type="text" id="num1"></label>
+		<label for="">Число (b)<input type="text" id="num2"></label>
+
+		<div class="operation">
+			<button id="sum" onclick="sum()">Додати</button>
+			<button id="min" onclick="min()">Відняти</button>
+			<button id="mult" onclick="mult()">Помножити</button>
+			<button id="dev" onclick="dev()">Поділити</button>
+			<button id="pow" onclick="pow()">Піднести до степеня</button>
+		</div>
+
+
+		<p id="output">Наш результат буде тут</p>
+		<p class="copyright">Створено Savchenko Oleksandr&#64;A-level</p>
+	</div>
+
+
+
+</body>
+
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+</html>
